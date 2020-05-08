@@ -1,0 +1,20 @@
+#assigning elements to the list
+list1=[1,2,4,5,"srt","int","float"]
+#assigning one list to other
+list2=list1
+#This will automatically change two lists 
+list1[0]="hello"
+print(list1)
+print(list2)
+
+#accesing elements from a tuple
+tuple1=("hello",3,4,5.6,"string",4,5,6,7,8)
+print(tuple1[1:])
+print(tuple1[5])
+
+#Deleting different elements in the dictionary
+dict1={"Name":"Yeswanth","Age":25,"salary":50000,"Company":"Hitech","Id":70800,"Language":"English"}
+del dict1["Language"]
+print(dict1)
+dict1.pop("Name")
+print(dict1)
